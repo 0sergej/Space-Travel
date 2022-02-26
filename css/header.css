@@ -1,0 +1,49 @@
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+header{
+  display: flex;
+
+}
+
+.nav{
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.nav__ul{
+  display: flex;
+  gap: var(--size-fluid-3);
+
+  background-color: hsl(0, 0%, 0%, 0.5);
+  backdrop-filter: blur(var(--size-2));
+
+  list-style: none;
+  border-radius: var(--size-1);
+  
+  margin-left:auto;
+  padding: 0 var(--size-6) 0 var(--size-12);
+
+  align-items: center;
+}
+
+.nav--logo{
+  width: 80px;
+  aspect-ratio: 1/1;
+}
+
+.nav--counter{
+  font-family: var(--font-sans);
+  font-weight: bold;
+  font-size: var(--font-size-fluid-1);
+  
+  margin-right: var(--size-2);
+} 
+
+.nav--link{
+  font-size: var(--font-size-fluid-1);
+  color:inherit
+}
