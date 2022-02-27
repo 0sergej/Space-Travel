@@ -76,11 +76,12 @@ select {
 
 
 :root{
-  --body-padding:var(--size-8);
+  --body-padding-block:var(--size-8);
+  --body-padding-inline:var(--size-10);
 }
 
 body{
-  padding:var(--body-padding);
+  padding: var(--body-padding-block) var(--body-padding-inline);
   font-family: var(--font-serif);
 
   background-image: url(../assets/home/background-home-desktop.jpg);
