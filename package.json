@@ -1,0 +1,23 @@
+{
+  "name": "space-travel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0sergej/Space-Travel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0sergej/Space-Travel/issues"
+  },
+  "homepage": "https://github.com/0sergej/Space-Travel#readme",
+  "dependencies": {
+    "open-props": "^1.3.8"
+  }
+}
