@@ -42,7 +42,7 @@
 
     width: calc(var(--size-fluid-9) + 1rem);
     aspect-ratio: 1;
-    border-radius: var(--radius-blob-5);
+    border-radius: var(--radius-blob-js);
     background-color: white;
 
     justify-self: center;
@@ -61,7 +61,7 @@
 
     width: 100%;
     height: 100%;
-    border-radius: var(--radius-blob-4);
+    border-radius: var(--radius-blob-js-after);
 
     background-color: rgba(255, 255, 255, 0.233);
 
