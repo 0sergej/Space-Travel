@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    gap: var(--size-8);
+
+    max-width: 80vw;
+
+    margin-top: var(--size-11);
+    margin-inline: auto;
+}
+
+.setcion--planet {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: var(--size-8);
+}
+
+.section--header {
+    font-size: calc(var(--font-size-fluid-2) + 0.3rem);
+    font-weight: var(--font-weight-3);
+}
+
+.header--span {
+  font-family: var(--font-sans);
+  font-weight: var(--font-weight-6);
+  font-size: inherit;
+  letter-spacing: var(--font-letterspacing-2);
+}
+
+.section__img {
+    width: 30vw;
+    aspect-ratio: 1;
+
+    align-self: center;
+}
+
