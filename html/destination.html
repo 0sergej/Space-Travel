@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <title>Space Travel</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/open-props" />
+        <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/destination__main.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <img src="../assets/shared/logo.svg" alt="Logo" class="nav--logo">
+                <div class="nav--line"></div>
+                <ul class="nav__ul">
+                    <li class="nav--item"><span class="nav--counter" aria-hidden="true">00 </span><a href="index.html"
+                            aria-label="Home" class="nav--link">Home</a>
+                    </li>
+                    <li class="nav--item"><span class="nav--counter" aria-hidden="true">01 </span><a
+                            href="destination.html" aria-label="Destination" class="nav--link">Destination</a></li>
+                    <li class="nav--item"><span class="nav--counter" aria-hidden="true">02 </span><a href="crew.html"
+                            aria-label="Crew" class="nav--link">Crew</a>
+                    </li>
+                    <li class="nav--item"><span class="nav--counter" aria-hidden="true">03 </span><a
+                            href="technology.html" aria-label="Technology" class="nav--link">Technology</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+	<section class="setcion--planet">
+		<h1><p class="section--header"><span aria-hidden="true" class="header--span">01</span> Pick your destination</p></h1>
+		<img src="../assets/destination/image-moon.png" alt="Planet" class="section__img">
+	</section>
+	<section class="section__cards">
+		<nav class="secondary__nav">
+			<ul class="cards__list">
+				<li class="cards--list"><a class="card__link">Moon</a></li>
+				<li class="cards--list"><a class="card__link">Mars</a></li>
+				<li class="cards--list"><a class="card__link">Europa</a></li>
+				<li class="cards--list"><a class="card__link">Titan</a></li>
+			</ul>
+		</nav>
+		<div class="card__div--info">
+			<h2 class="card__header"></h2>
+			<p class="card__p"></p>
+			<div class="card__div--more-info">
+				<h3 class="header--distance"></h3>
+				<p class="p--distance"></p>
+				<h3 class="header--time"></h3>
+				<p class="p--time"></p>
+			</div>
+		</div>
+	</section>
+</main>
+    </body>
+
+</html>
