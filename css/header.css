@@ -53,8 +53,9 @@ header{
 
 .nav--counter{
   font-family: var(--font-sans);
-  font-weight: bold;
+  font-weight: var(--font-weight-7);
   font-size: var(--font-size-fluid-1);
+  letter-spacing: var(--font-letterspacing-3);
   
   margin-right: var(--size-2);
 } 
