@@ -8,9 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://unpkg.com/open-props" />
         <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css" />
+        <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/destination__main.css">
+        <script src="../js/background.js" defer></script>
     </head>
 
     <body>
@@ -33,31 +35,37 @@
             </nav>
         </header>
         <main class="main">
-	<section class="setcion--planet">
-		<h1><p class="section--header"><span aria-hidden="true" class="header--span">01</span> Pick your destination</p></h1>
-		<img src="../assets/destination/image-moon.png" alt="Planet" class="section__img">
-	</section>
-	<section class="section__cards">
-		<nav class="secondary__nav">
-			<ul class="cards__list">
-				<li class="cards--list"><a class="card__link">Moon</a></li>
-				<li class="cards--list"><a class="card__link">Mars</a></li>
-				<li class="cards--list"><a class="card__link">Europa</a></li>
-				<li class="cards--list"><a class="card__link">Titan</a></li>
-			</ul>
-		</nav>
-		<div class="card__div--info">
-			<h2 class="card__header"></h2>
-			<p class="card__p"></p>
-			<div class="card__div--more-info">
-				<h3 class="header--distance"></h3>
-				<p class="p--distance"></p>
-				<h3 class="header--time"></h3>
-				<p class="p--time"></p>
-			</div>
-		</div>
-	</section>
-</main>
+            <section class="setcion--planet">
+                <h1>
+                    <p class="section--header"><span aria-hidden="true" class="header--span">01</span> Pick your
+                        destination</p>
+                </h1>
+                <img src="../assets/destination/image-moon.png" alt="Planet" class="section__img">
+            </section>
+            <section class="section__cards">
+                <nav class="secondary__nav">
+                    <ul class="cards__list">
+                        <li class="cards--list"><a class="card__link" href="#">Moon</a></li>
+                        <li class=" cards--list"><a class="card__link" href="#">Mars</a></li>
+                        <li class=" cards--list"><a class="card__link" href="#">Europa</a></li>
+                        <li class=" cards--list"><a class="card__link" href="#">Titan</a></li>
+                    </ul>
+                </nav>
+
+                <h2 class="card__header">Moon</h2>
+                <p class="card__p">See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+                    regain perspective and come back
+                    refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing
+                    sites.</p>
+                <div class="card__div--info">
+                    <h3 class="header--distance">avg. distance</h3>
+                    <p class="p--distance">384,400 km</p>
+                    <h3 class="header--time">est. travel time</h3>
+                    <p class="p--time">3 days</p>
+                </div>
+
+            </section>
+        </main>
     </body>
 
 </html>
