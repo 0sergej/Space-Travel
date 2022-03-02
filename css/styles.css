@@ -1,9 +1,13 @@
 :root{
   --body-padding-block:var(--size-8);
   --body-padding-inline:var(--size-10);
+  --body-color: hsl(0 0% 100% / 1);
 }
 
 body{
   padding: var(--body-padding-block) var(--body-padding-inline);
   font-family: var(--font-serif);
+  color:var(--body-color)
 }
+
+h1,h2,h3,h4{color:var(--body-color)}
