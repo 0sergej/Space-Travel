@@ -75,7 +75,7 @@
 }
 
 .card__link:hover::after,
-.card__link:focus:after {
+.card__link:focus::after {
     opacity: 1;
     transform: scaleX(1);
     transition: transform 300ms ease;
