@@ -43,7 +43,6 @@ body {
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
-
 /* Make images easier to work with */
 img,
 picture {
@@ -73,4 +72,8 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+a{
+  text-decoration:inherit;
 }
