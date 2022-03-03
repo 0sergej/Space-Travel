@@ -35,7 +35,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.75;
   overflow-x: hidden;
 }
 
@@ -43,6 +43,7 @@ body {
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
+
 /* Make images easier to work with */
 img,
 picture {
@@ -73,7 +74,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-a{
-  text-decoration:inherit;
-}
+  *:focus{
+    outline: none;
+  }
