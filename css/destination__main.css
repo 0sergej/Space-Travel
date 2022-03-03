@@ -17,16 +17,14 @@
     text-align: center;
 }
 
-.setcion--planet span:nth-child(1) {
-    color: hsla(0, 0%, 100%, 0.52);
-}
-
 .section__header {
     font-size: calc(var(--font-size-fluid-2) + 0.3rem);
     font-weight: var(--font-weight-3);
 }
 
 .header__span {
+    color: hsla(0, 0%, 100%, 0.52);
+
     font-family: var(--font-sans);
     font-weight: var(--font-weight-6);
     font-size: inherit;
@@ -37,11 +35,11 @@
     width: 30vw;
     aspect-ratio: 1;
 }
-.section__cards {
+.article--cards {
     padding-top: calc(var(--size-9));
 }
 
-.secondary__nav {
+.article__nav {
     display: flex;
 }
 
