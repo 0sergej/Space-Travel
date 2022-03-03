@@ -53,14 +53,24 @@ let cardHeader = document.querySelector('.card__header')
 let cardP = document.querySelector('.card__p')
 let headerDistance = document.querySelector('.p--distance')
 let headerTime = document.querySelector('.p--time')
-let i = 0
 
-fillTheData(JSON_DATA_DESTINATION)
+let i = 0
 
 const MOON = document.querySelector('.moon')
 const MARS = document.querySelector('.mars')
 const EUROPA = document.querySelector('.europa')
 const TITAN = document.querySelector('.titan')
+
+fillTheData(JSON_DATA_DESTINATION)
+
+function fillTheData(JSON_DATA) {
+    sectionImg.setAttribute('src', JSON_DATA.destinations[i].images.png)
+    sectionWebp.setAttribute('srcset', JSON_DATA.destinations[i].images.webp)
+    cardHeader.innerHTML = JSON_DATA.destinations[i].name
+    cardP.innerHTML = JSON_DATA.destinations[i].description
+    headerDistance.innerHTML = JSON_DATA.destinations[i].distance
+    headerTime.innerHTML = JSON_DATA.destinations[i].travel
+}
 
 MOON.addEventListener('click', () => {
     i = 0
@@ -78,12 +88,3 @@ TITAN.addEventListener('click', () => {
     i = 3
     fillTheData(JSON_DATA_DESTINATION)
 })
-
-function fillTheData(JSON_DATA) {
-    sectionImg.setAttribute('src', JSON_DATA.destinations[i].images.png)
-    sectionWebp.setAttribute('srcset', JSON_DATA.destinations[i].images.webp)
-    cardHeader.innerHTML = JSON_DATA.destinations[i].name
-    cardP.innerHTML = JSON_DATA.destinations[i].description
-    headerDistance.innerHTML = JSON_DATA.destinations[i].distance
-    headerTime.innerHTML = JSON_DATA.destinations[i].travel
-}
