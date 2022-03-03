@@ -1,0 +1,74 @@
+.main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: var(--size-10);
+
+    margin-inline-start: 10rem;
+}
+
+.article--cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.article__header {
+    font-size: calc(var(--font-size-fluid-2) + 0.3rem);
+    font-weight: var(--font-weight-3);
+
+    margin-block-start: var(--size-10);
+    margin-block-end: var(--size-12);
+}
+
+.header__span {
+    color: hsla(0, 0%, 100%, 0.52);
+
+    font-family: var(--font-sans);
+    font-weight: var(--font-weight-6);
+    font-size: inherit;
+    letter-spacing: var(--font-letterspacing-2);
+}
+
+.card__header--role {
+    color: hsla(0, 0%, 100%, 0.2);
+
+    font-size: var(--font-size-6);
+    font-weight: var(--font-weight-4);
+}
+
+.card__header--name {
+    font-size: var(--font-size-fluid-3);
+
+    margin-block: var(--size-1) var(--size-7);
+}
+
+.card__p {
+    font-size: var(--font-size-fluid-1);
+}
+
+.cards__list {
+    display: flex;
+    gap: var(--size-7);
+
+    list-style-type: circle;
+    font-size: var(--font-size-fluid-3);
+
+    margin-block-start: var(--size-2);
+}
+
+.cards--list:hover {
+    list-style-type: disc;
+}
+
+.card__link {
+    color: inherit;
+}
+
+.section--crew {
+    display: flex;
+
+    align-items: end;
+}
+
+.section__picture {
+    transform:translateY(107px)
+}
