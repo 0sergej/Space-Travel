@@ -1,3 +1,10 @@
+body{
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .main {
     margin-inline: var(--size-10);
     padding-top: 20rem;
