@@ -1,7 +1,7 @@
 const INDEX = document.querySelector('body')
 const DESTINATION = document.querySelector('body')
 const CREW = document.querySelector('body')
-// const TECHNOLOGY = document.querySelector('body')
+const TECHNOLOGY = document.querySelector('body')
 
 INDEX.style.setProperty(
     'background-image',
@@ -24,9 +24,9 @@ CREW.style.setProperty(
 CREW.style.setProperty('background-repeat', 'no-repeat')
 CREW.style.setProperty('background-size', 'cover')
 
-// TECHNOLOGY.style.setProperty(
-//     'background-image',
-//     'url(../assets/technology/background-technology-desktop.jpg)'
-// )
-// TECHNOLOGY.style.setProperty('background-repeat', 'no-repeat')
-// TECHNOLOGY.style.setProperty('background-size', 'cover')
+TECHNOLOGY.style.setProperty(
+    'background-image',
+    'url(../assets/technology/background-technology-desktop.jpg)'
+)
+TECHNOLOGY.style.setProperty('background-repeat', 'no-repeat')
+TECHNOLOGY.style.setProperty('background-size', 'cover')
